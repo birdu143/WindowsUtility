@@ -1,0 +1,251 @@
+{
+  "presets": {
+    "Standard": {
+      "name": "Standard",
+      "description": "Recommended set of tweaks for general use, balancing performance, privacy, and user experience.",
+      "tweaks": [
+        "WPFTweaksAH",
+        "WPFTweaksConsumerFeatures",
+        "WPFTweaksDVR",
+        "WPFTweaksHiber",
+        "WPFTweaksHome",
+        "WPFTweaksLoc",
+        "WPFTweaksServices",
+        "WPFTweaksStorage",
+        "WPFTweaksTele",
+        "WPFTweaksWifi",
+        "WPFTweaksDiskCleanup",
+        "WPFTweaksDeleteTempFiles",
+        "WPFTweaksEndTaskOnTaskbar",
+        "WPFTweaksRestorePoint",
+        "WPFTweaksPowershell7Tele"
+      ]
+    },
+    "Minimal": {
+      "name": "Minimal",
+      "description": "A minimal set of tweaks focused on essential improvements for performance and privacy.",
+      "tweaks": [
+        "WPFTweaksConsumerFeatures",
+        "WPFTweaksHome",
+        "WPFTweaksServices",
+        "WPFTweaksTele"
+      ]
+    },
+    "Performance": {
+      "name": "Performance",
+      "description": "Aggressive tweaks focused on maximizing system performance and responsiveness. May reduce visual fidelity and background features.",
+      "tweaks": [
+        "WPFTweaksStartupApps",
+        "WPFTweaksVisualEffects",
+        "WPFTweaksProcessorScheduling",
+        "WPFTweaksMemoryManagement",
+        "WPFTweaksFastStartup",
+        "WPFTweaksIndexingOptions",
+        "WPFTweaksServices",
+        "WPFTweaksStorage",
+        "WPFTweaksDiskCleanup",
+        "WPFTweaksDeleteTempFiles",
+        "WPFTweaksDiskDefragSchedule",
+        "WPFTweaksPowerPlanCustomization"
+      ]
+    },
+    "Privacy": {
+      "name": "Privacy",
+      "description": "Tweaks focused on enhancing user privacy and limiting data collection.",
+      "tweaks": [
+        "WPFTweaksTele",
+        "WPFTweaksLoc",
+        "WPFTweaksPowershell7Tele",
+        "WPFTweaksActivityHistory",
+        "WPFTweaksAppPermissions",
+        "WPFTweaksLockScreenCustomization",
+        "WPFTweaksUACSettings",
+         "WPFTweaksFirewallRules"
+      ]
+    },
+    "UserExperience": {
+      "name": "UserExperience",
+      "description": "Tweaks focused on customizing and improving the user interface and overall usability.",
+      "tweaks": [
+        "WPFTweaksContextMenu",
+        "WPFTweaksFileExplorerOptions",
+        "WPFTweaksTaskbarCustomization",
+        "WPFTweaksStartMenuLayout",
+        "WPFTweaksSoundScheme",
+        "WPFTweaksMouseSettings",
+        "WPFTweaksKeyboardSettings",
+        "WPFTweaksEndTaskOnTaskbar",
+        "WPFTweaksAH"
+      ]
+    },
+    "Maintenance": {
+      "name": "Maintenance",
+      "description": "Tweaks focused on system maintenance and health.",
+      "tweaks": [
+        "WPFTweaksDiskCleanup",
+        "WPFTweaksDeleteTempFiles",
+        "WPFTweaksRestorePoint",
+        "WPFTweaksSystemRestoreAdvanced",
+        "WPFTweaksDriverUpdates",
+        "WPFTweaksDiskDefragSchedule"
+      ]
+    }
+  },
+  "options": {
+    "WPFTweaksAH": {
+      "name": "Accessibility Feature Tweaks",
+      "description": "Adjust settings related to accessibility features to improve usability for users with disabilities."
+    },
+    "WPFTweaksConsumerFeatures": {
+      "name": "Consumer Feature Tweaks",
+      "description": "Manage various consumer-oriented Windows features, potentially disabling bloatware or customizing default apps."
+    },
+    "WPFTweaksDVR": {
+      "name": "DVR Feature Tweaks",
+      "description": "Customize settings for Digital Video Recording features like Xbox Game Bar recording."
+    },
+    "WPFTweaksHiber": {
+      "name": "Hibernation Tweaks",
+      "description": "Control and customize hibernation settings to manage power consumption and startup behavior."
+    },
+    "WPFTweaksHome": {
+      "name": "Home Environment Tweaks",
+      "description": "Customize settings related to home network environments and file sharing."
+    },
+    "WPFTweaksLoc": {
+      "name": "Location Services Tweaks",
+      "description": "Manage location services and privacy settings to control location tracking."
+    },
+    "WPFTweaksServices": {
+      "name": "Services Tweaks",
+      "description": "Optimize Windows Services by disabling unnecessary services to improve performance and reduce resource usage."
+    },
+    "WPFTweaksStorage": {
+      "name": "Storage Tweaks",
+      "description": "Customize storage-related features like Disk Sense and disk optimization."
+    },
+    "WPFTweaksTele": {
+      "name": "Telemetry Tweaks",
+      "description": "Control Windows telemetry settings to limit the amount of diagnostic data sent to Microsoft."
+    },
+    "WPFTweaksWifi": {
+      "name": "Wi-Fi Tweaks",
+      "description": "Customize Wi-Fi adapter settings and security options for network connections."
+    },
+    "WPFTweaksDiskCleanup": {
+      "name": "Disk Cleanup Tweaks",
+      "description": "Customize and automate Disk Cleanup tasks to remove unnecessary files."
+    },
+    "WPFTweaksDeleteTempFiles": {
+      "name": "Temporary Files Tweaks",
+      "description": "Automate and customize the deletion of temporary files to free up disk space."
+    },
+    "WPFTweaksEndTaskOnTaskbar": {
+      "name": "End Task on Taskbar Tweaks",
+      "description": "Modify or enhance the 'End Task' functionality when right-clicking applications on the taskbar."
+    },
+    "WPFTweaksRestorePoint": {
+      "name": "Restore Point Tweaks",
+      "description": "Customize System Restore Point creation and management for system recovery."
+    },
+    "WPFTweaksPowershell7Tele": {
+      "name": "PowerShell 7 Telemetry Tweaks",
+      "description": "Specifically manage telemetry settings for PowerShell 7."
+    },
+    "WPFTweaksStartupApps": {
+      "name": "Startup Applications Management",
+      "description": "Control which applications launch automatically when Windows starts to improve boot time."
+    },
+    "WPFTweaksVisualEffects": {
+      "name": "Visual Effects Adjustment",
+      "description": "Customize Windows visual effects to improve performance, especially on lower-end hardware."
+    },
+    "WPFTweaksProcessorScheduling": {
+      "name": "Processor Scheduling Optimization",
+      "description": "Optimize processor scheduling for foreground applications or background services based on usage preferences."
+    },
+    "WPFTweaksMemoryManagement": {
+      "name": "Memory Management Tweaks",
+      "description": "Adjust advanced memory management settings for potentially improved memory utilization."
+    },
+    "WPFTweaksFastStartup": {
+      "name": "Fast Startup Control",
+      "description": "Enable or disable Fast Startup to control boot speed and potentially resolve compatibility issues."
+    },
+    "WPFTweaksIndexingOptions": {
+      "name": "Indexing Options Configuration",
+      "description": "Customize Windows Search indexing to balance search speed and background resource usage."
+    },
+    "WPFTweaksFirewallRules": {
+      "name": "Firewall Rules Management",
+      "description": "Simplify management of basic Windows Firewall rules for enhanced system security."
+    },
+    "WPFTweaksUACSettings": {
+      "name": "User Account Control (UAC) Settings",
+      "description": "Adjust User Account Control (UAC) prompt levels to balance security and user convenience."
+    },
+    "WPFTweaksAppPermissions": {
+      "name": "App Permissions Management",
+      "description": "Manage application permissions for privacy-sensitive features like microphone, camera, and location."
+    },
+    "WPFTweaksLockScreenCustomization": {
+      "name": "Lock Screen Customization",
+      "description": "Customize elements on the lock screen for privacy and personalization."
+    },
+    "WPFTweaksActivityHistory": {
+      "name": "Activity History Management",
+      "description": "Clear or disable Windows Activity History to manage privacy."
+    },
+    "WPFTweaksContextMenu": {
+      "name": "Context Menu Customization",
+      "description": "Customize right-click context menus by adding or removing options for a personalized experience."
+    },
+    "WPFTweaksFileExplorerOptions": {
+      "name": "File Explorer Options",
+      "description": "Customize File Explorer behavior and appearance settings."
+    },
+    "WPFTweaksTaskbarCustomization": {
+      "name": "Taskbar Customization",
+      "description": "Advanced customization options for the Windows taskbar."
+    },
+    "WPFTweaksStartMenuLayout": {
+      "name": "Start Menu Layout Management",
+      "description": "Backup, restore, or apply pre-defined layouts for the Windows Start Menu."
+    },
+    "WPFTweaksSoundScheme": {
+      "name": "Sound Scheme Customization",
+      "description": "Easily change and customize Windows sound schemes for system events."
+    },
+    "WPFTweaksMouseSettings": {
+      "name": "Mouse Settings Customization",
+      "description": "Advanced customization options for mouse behavior and appearance."
+    },
+    "WPFTweaksKeyboardSettings": {
+      "name": "Keyboard Settings Customization",
+      "description": "Customize keyboard settings like repeat rate and delay for typing comfort."
+    },
+    "WPFTweaksDriverUpdates": {
+      "name": "Driver Updates Management",
+      "description": "Simplify the process of updating device drivers, potentially linking to official sources."
+    },
+    "WPFTweaksSystemRestoreAdvanced": {
+      "name": "Advanced System Restore Options",
+      "description": "More granular control over System Restore, including storage space and restore point management."
+    },
+    "WPFTweaksDiskDefragSchedule": {
+      "name": "Disk Defragmentation Schedule",
+      "description": "Control the schedule for disk defragmentation (if applicable to the storage type)."
+    },
+    "WPFTweaksPowerPlanCustomization": {
+      "name": "Power Plan Customization",
+      "description": "Advanced customization options for Windows power plans to optimize energy usage and performance."
+    }
+  },
+  "categories": {
+    "Performance": "Performance",
+    "Privacy": "Privacy",
+    "User Interface": "User Interface",
+    "System": "System",
+    "Maintenance": "Maintenance"
+  }
+}

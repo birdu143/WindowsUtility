@@ -1,0 +1,152 @@
+{
+    "description": "UI Theme Configuration File - Supports Light and Dark Themes",
+    "version": "1.1", // Versioning for future compatibility - Increment for significant changes
+    "shared": {
+        // Shared settings applied to both Light and Dark themes
+        // These are default values and common UI element dimensions
+
+        "CustomDialogWidth":          "400",       // Width of custom dialog boxes (pixels)
+        "CustomDialogHeight":         "200",       // Height of custom dialog boxes (pixels)
+        "CustomDialogLogoSize":       "25",        // Logo size in custom dialog boxes (pixels)
+        "CustomDialogFontSize":       "12",        // Font size for text in custom dialogs (pixels)
+        "CustomDialogFontSizeHeader": "14",        // Font size for headers in custom dialogs (pixels)
+
+        // Font settings - default fonts for the application
+        "FontFamily":       "Arial",             // Default font family for general text
+        "FontSize":         "12",              // Default font size for general text (pixels)
+        "HeaderFontFamily": "Consolas, Monaco", // Font family for headers (e.g., window titles) - Supports fallback fonts
+        "HeadingFontSize":  "16",              // Font size for headings (e.g., section titles) (pixels)
+
+        // Checkbox appearance and spacing
+        "CheckBoxBulletDecoratorSize": "14",   // Size of the bullet/check mark within checkboxes (pixels)
+        "CheckBoxMargin": "15,0,0,2",        // Margin around checkboxes (Left, Top, Right, Bottom in pixels)
+        "CheckboxMouseOverColor": "#999999",   // Color of checkbox when mouse cursor is hovering over it (Hex color code)
+        "MicrowinCheckBoxMargin": "-10,5,0,0", // Margin for checkboxes specifically within microwindows (pixels)
+
+        // Tab control styling
+        "TabContentMargin":       "5",         // Margin around the content within tabs (pixels)
+        "TabButtonFontSize":      "14",        // Font size for text on tab buttons (pixels)
+        "TabButtonWidth":         "110",       // Width of tab buttons (pixels)
+        "TabButtonHeight":        "26",        // Height of tab buttons (pixels)
+        "TabRowHeightInPixels":   "50",        // Height of the entire tab row area (pixels)
+
+        // Iconography - sizes for various icons
+        "IconFontSize":     "14",              // Font size for general icons (pixels) -  Used for font-based icons
+        "IconButtonSize":   "35",              // Size of square icon buttons (pixels)
+        "SettingsIconFontSize":   "18",        // Font size for settings/cog icons (pixels)
+        "CloseIconFontSize":      "18",        // Font size for close/X icons (pixels)
+        "MicroWinLogoSize": "10",              // Logo size in micro windows (pixels)
+
+        // Group box styling
+        "GroupBorderBackgroundColor":  "#232629", // Background color for the border of group boxes (Hex color code)
+
+        // Button styling - common button properties
+        "ButtonFontFamily": "Arial",             // Font family for button text
+        "ButtonFontSize":   "12",              // Font size for button text (pixels)
+        "ButtonWidth":      "200",             // Default button width (pixels)
+        "ButtonHeight":     "25",              // Default button height (pixels)
+        "ButtonBorderThickness":  "1",          // Border thickness for buttons (pixels)
+        "ButtonMargin":  "1",                   // Margin around buttons (pixels)
+        "ButtonCornerRadius": "2",             // Corner radius for buttons (pixels) -  0 for square, higher for rounded corners
+        "ConfigUpdateButtonFontSize":   "14",    // Font size for configuration update buttons (pixels) - Specific button type
+
+        // Search bar styling
+        "SearchBarWidth":               "200",   // Width of search bars (pixels)
+        "SearchBarHeight":              "26",    // Height of search bars (pixels)
+        "SearchBarTextBoxFontSize":     "12",    // Font size for text input area in search bars (pixels)
+        "SearchBarClearButtonFontSize": "14"     // Font size for the clear "X" button in search bars (pixels)
+    },
+    "Light": {
+        // Light theme specific settings - overrides or extends "shared" settings for the Light theme
+        "MainBackgroundColor":  "#F7F7F7",      // Background color for main application areas (Hex color code) - Light gray/off-white
+        "MainForegroundColor":  "#232629",      // Foreground color for text and primary elements in main areas (Hex color code) - Dark gray
+
+        "LabelBackgroundColor":  "#F7F7F7",      // Background color for labels (Hex color code) - Matches main background for seamless look
+        "LabelboxForegroundColor":  "#232629",      // Foreground color for text in label boxes (Hex color code) - Dark gray
+
+        "LinkForegroundColor":  "#484848",      // Default color for hyperlinks (Hex color code) - Medium gray
+        "LinkHoverForegroundColor":  "#232629",      // Color of hyperlinks when mouse hovers (Hex color code) - Dark gray
+
+        "ComboBoxBackgroundColor":  "#F7F7F7",  // Background color for dropdown/combobox controls (Hex color code) - Light gray/off-white
+        "ComboBoxForegroundColor":  "#232629",  // Foreground color for text in comboboxes (Hex color code) - Dark gray
+
+        // Scrollbar styling for Light theme
+        "ScrollBarBackgroundColor": "#4A4D52",   // Background color of the scrollbar track (Hex color code) - Darker gray
+        "ScrollBarHoverColor": "#5A5D62",        // Color of the scrollbar thumb/handle on hover (Hex color code) - Slightly lighter gray
+        "ScrollBarDraggingColor": "#6A6D72",     // Color of the scrollbar thumb/handle when being dragged (Hex color code) - Even lighter gray
+
+        // Progress bar styling for Light theme
+        "ProgressBarBackgroundColor": "Transparent", // Background color of the progress bar area (e.g., behind the bar itself) - Transparent
+        "ProgressBarForegroundColor": "#2e77ff",   // Fill color of the progress bar (Hex color code) - Light blue
+        "ProgressBarTextColor": "#232629",       // Color of text overlaid on the progress bar (Hex color code) - Dark gray
+
+        // Button colors - Light theme specific button styles
+        "ButtonBackgroundColor":  "#F5F5F5",      // Default button background color (Hex color code) - Light gray
+        "ButtonBackgroundPressedColor":  "#1A1A1A", // Button background color when actively pressed (Hex color code) - Very dark gray
+        "ButtonBackgroundMouseoverColor":  "#C2C2C2", // Button background color when mouse cursor is over it (Hex color code) - Medium light gray
+        "ButtonBackgroundSelectedColor":  "#F0F0F0", // Button background color when in a selected state (Hex color code) - Very light gray
+        "ButtonForegroundColor":  "#232629",      // Default button text color (Hex color code) - Dark gray
+        "ButtonInstallBackgroundColor":  "#F7F7F7", // Background color for "Install" type buttons (Hex color code) - Light gray/off-white
+        "ButtonInstallForegroundColor":  "#232629", // Foreground color for "Install" buttons (Hex color code) - Dark gray
+        "ButtonTweaksBackgroundColor":  "#F7F7F7", // Background color for "Tweaks" type buttons (Hex color code) - Light gray/off-white
+        "ButtonTweaksForegroundColor":  "#232629", // Foreground color for "Tweaks" buttons (Hex color code) - Dark gray
+        "ButtonConfigBackgroundColor":  "#F7F7F7", // Background color for "Config" type buttons (Hex color code) - Light gray/off-white
+        "ButtonConfigForegroundColor":  "#232629", // Foreground color for "Config" buttons (Hex color code) - Dark gray
+        "ButtonUpdatesBackgroundColor":  "#F7F7F7", // Background color for "Updates" type buttons (Hex color code) - Light gray/off-white
+        "ButtonUpdatesForegroundColor":  "#232629", // Foreground color for "Updates" buttons (Hex color code) - Dark gray
+
+        // Toggle button colors for Light theme
+        "ToggleButtonOnColor":  "#2e77ff",      // Color of toggle switch when in the "ON" state (Hex color code) - Light blue
+        "ToggleButtonOffColor": "#707070",       // Color of toggle switch when in the "OFF" state (Hex color code) - Medium gray
+
+        // Border styling for Light theme
+        "BorderColor": "#232629",                // Default border color for various UI elements (Hex color code) - Dark gray
+        "BorderOpacity": "0.2"                   // Opacity of borders (0.0 - fully transparent, 1.0 - fully opaque)
+    },
+    "Dark": {
+        // Dark theme specific settings - overrides or extends "shared" settings for the Dark theme
+        "MainBackgroundColor":  "#232629",      // Background color for main application areas (Hex color code) - Dark gray
+        "MainForegroundColor":  "#F7F7F7",      // Foreground color for text and primary elements in main areas (Hex color code) - Light gray/off-white
+        "LabelBackgroundColor":  "#232629",      // Background color for labels (Hex color code) - Dark gray
+        "LabelboxForegroundColor":  "#0567ff",      // Foreground color for text in label boxes (Hex color code) - Blue-ish, potentially accent color
+
+        "LinkForegroundColor":  "#add8e6",      // Default color for hyperlinks (Hex color code) - Light blue
+        "LinkHoverForegroundColor":  "#F7F7F7",      // Color of hyperlinks when mouse hovers (Hex color code) - Light gray/off-white
+
+        "ComboBoxBackgroundColor":  "#1E3747",  // Background color for dropdown/combobox controls (Hex color code) - Darker blue-gray
+        "ComboBoxForegroundColor":  "#F7F7F7",  // Foreground color for text in comboboxes (Hex color code) - Light gray/off-white
+
+        // Scrollbar styling for Dark theme
+        "ScrollBarBackgroundColor": "#2E3135",   // Background color of the scrollbar track (Hex color code) - Darker gray
+        "ScrollBarHoverColor": "#3B4252",        // Color of the scrollbar thumb/handle on hover (Hex color code) - Slightly lighter gray
+        "ScrollBarDraggingColor": "#5E81AC",     // Color of the scrollbar thumb/handle when being dragged (Hex color code) - Blue-gray
+
+        // Progress bar styling for Dark theme
+        "ProgressBarBackgroundColor": "Transparent", // Background color of the progress bar area (Hex color code) - Transparent
+        "ProgressBarForegroundColor": "#222222",   // Fill color of the progress bar (Hex color code) - Very dark gray
+        "ProgressBarTextColor": "#cccccc",       // Color of text overlaid on the progress bar (Hex color code) - Light gray
+
+        // Button colors - Dark theme specific button styles
+        "ButtonBackgroundColor":  "#1E3747",      // Default button background color (Hex color code) - Darker blue-gray
+        "ButtonBackgroundPressedColor":  "#F7F7F7", // Button background color when actively pressed (Hex color code) - Light gray/off-white
+        "ButtonBackgroundMouseoverColor":  "#3B4252", // Button background color when mouse cursor is over it (Hex color code) - Slightly lighter blue-gray
+        "ButtonBackgroundSelectedColor":  "#5E81AC", // Button background color when in a selected state (Hex color code) - Blue-gray
+        "ButtonForegroundColor":  "#F7F7F7",      // Default button text color (Hex color code) - Light gray/off-white
+        "ButtonInstallBackgroundColor":  "#222222", // Background color for "Install" type buttons (Hex color code) - Very dark gray
+        "ButtonInstallForegroundColor":  "#F7F7F7", // Foreground color for "Install" buttons (Hex color code) - Light gray/off-white
+        "ButtonTweaksBackgroundColor":  "#333333", // Background color for "Tweaks" type buttons (Hex color code) - Dark gray
+        "ButtonTweaksForegroundColor":  "#F7F7F7", // Foreground color for "Tweaks" buttons (Hex color code) - Light gray/off-white
+        "ButtonConfigBackgroundColor":  "#444444", // Background color for "Config" type buttons (Hex color code) - Medium dark gray
+        "ButtonConfigForegroundColor":  "#F7F7F7", // Foreground color for "Config" buttons (Hex color code) - Light gray/off-white
+        "ButtonUpdatesBackgroundColor":  "#555555", // Background color for "Updates" type buttons (Hex color code) - Slightly lighter dark gray
+        "ButtonUpdatesForegroundColor":  "#F7F7F7", // Foreground color for "Updates" buttons (Hex color code) - Light gray/off-white
+
+        // Toggle button colors for Dark theme
+        "ToggleButtonOnColor": "#2e77ff",       // Color of toggle switch when in "ON" state (Hex color code) - Light blue
+        "ToggleButtonOffColor": "#707070",       // Color of toggle switch when in "OFF" state (Hex color code) - Medium gray
+
+        // Border styling for Dark theme
+        "BorderColor": "#2F373D",                // Default border color for various UI elements (Hex color code) - Darker gray
+        "BorderOpacity": "0.2"                   // Border opacity (0.0 - fully transparent, 1.0 - fully opaque)
+    }
+}
